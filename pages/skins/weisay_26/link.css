@@ -1,0 +1,32 @@
+﻿/*-----------超链接样式 weisay.com ---------------
+ 说明: 伪类:link :visited :hover分别代表超链接的通常、被访问后、和鼠标接触链接是的样式
+ a标签代表通用超链接样式
+ .menuA代表Blog导航条菜单的样式
+ .titleA代表日志标题的样式
+ .sideA代表侧栏的超链接样式
+ .CategoryA代表树形分类的链接样式
+ .more代表更多链接的样式
+------------------------------------------------*/
+ a:link,a:visited{text-decoration:none;color:#338815;}
+ a:hover{color:#338815;text-decoration: underline;}
+
+ .menuA:link,.menuA:visited{font-weight: bold;font-size: 13px;float: left;text-align: center;height:34px;text-align:center;padding:0px 8px 0px 8px;background: url(menu_main.gif) ;text-decoration:none;color:#d3fcae;line-height:34px;}  
+.menuA:hover{color: #fff;background: url(menu.gif) no-repeat center;margin-top: 0px;padding-top: 0px;line-height: 34px;text-decoration:underline;} 
+.menuB:link, .menuB:visited, .menuB:hover{text-decoration: none;display: block;background: url(menu.gif) no-repeat center;float: center;text-align: center;line-height: 34px;color: #fff;font-weight: bold;margin-top: 0px;padding: 0px 8px 0px 8px;}  
+
+ .titleA:link,.titleA:visited{text-decoration:none;font-weight:bold;text-align:left;color:#338815;}
+ .titleA:hover{color: #338815;text-decoration:underline;}
+
+ .sideA:link,.sideA:visited{color:#338815;width:210px; height:18px;margin-bottom:2px;line-height:120%;margin-top: 2px;text-decoration:none;overflow:hidden;display:block;}
+ .sideA:hover{text-decoration:underline;height:18px;color:#338815; overflow:hidden;}
+
+ .CategoryA:link,.CategoryA:visited{text-decoration:none;}
+ .CategoryA:hover{text-decoration:underline;}
+
+ #container #foot a:link,#container #foot a:visited{text-decoration:none;color:#338815;}
+ #container #foot a:hover{text-decoration:underline;color:#338815;}
+
+ .more:link,.more:visited{float:right;font-size: 16px;padding-left:18px;text-decoration:none;color:#338815;}
+ .more:hover{padding-right:2px;color:#338815;text-decoration:underline;}
+
+ /*---超链接样式定义结束 weisay.com ---*/

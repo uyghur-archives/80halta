@@ -1,0 +1,18 @@
+@font-face {  font-family: UKIJ TUZ TOR;   src: url(/UKIJTUZ1.eot);  }
+ body{
+	font-size:16px;
+	margin:0px;
+	text-align:center;
+	color:#333;
+	font-family: UKIJ TUZ TOR,Verdana, Arial;
+        background: url(bg.gif) repeat-x #e9f4e6;  
+        margin: 0 auto;
+}
+ p{margin:3px;}
+ img {max-width: 100%;height: auto;}
+ select{font-family: UKIJ TUZ TOR,Verdana, Arial;font-size:12px;}
+ th{border-bottom:1px solid #79ff9f}
+#editorbody
+{
+    zoom: 1;
+}
